@@ -41,7 +41,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  CONVENTIONAL_PRODUCE[2] = "Lemons"
+  assembled_matrix[0][2] = "Lemons"
   
   CONVENTIONAL_PRODUCE
   # Given any matrix (array of arrays), a row index and a column index, 
